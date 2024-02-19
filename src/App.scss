@@ -1,0 +1,29 @@
+@use "assets/styles/common" as *;
+@use "assets/styles/main.scss" as *;
+
+.advicegenerator {
+  background-color: $color-primary-lightcyan;
+  height: 100vh;
+  text-align: center;
+
+  &__patternDividerMobile {
+    width: 100%;
+  }
+
+  &__patternDividerDesktop {
+    margin-top: 2.5rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  &__iconDice {
+    position: absolute;
+    left: 40%;
+    background-color: orange;
+    top: 91%;
+
+    @include isMediaTabletLandscape() {
+      left: 44%;
+      top: 89%;
+    }
+  }
+}
