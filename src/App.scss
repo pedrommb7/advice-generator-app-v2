@@ -6,6 +6,12 @@
   height: 100vh;
   text-align: center;
 
+  h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   &__patternDividerMobile {
     width: 100%;
   }
