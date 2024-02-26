@@ -8,7 +8,7 @@ function App() {
   return (
     <main className="App advicegenerator flex flex--column flex__align--center">
       <Figure />
-      <Heading type="h2" text="Get inspired, pick your advice" className="mt--368" />
+      <Heading type="h2" text="Get inspired, pick your advice" />
     </main>
   );
 }
